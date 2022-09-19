@@ -1,0 +1,18 @@
+body {
+    font: Georgia;
+}
+
+
+html {
+    background-color: rgb(48, 119, 119);
+}
+
+
+h1.main-title {
+    text-align: center;
+} 
+
+
+p.content {
+   margin-bottom: 12px; 
+} 

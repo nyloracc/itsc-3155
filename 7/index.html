@@ -1,0 +1,16 @@
+<!-- Prompt user to input name -->
+<input id="name-input" type="text" placeholder="Enter your name" />
+<!-- User interect to store value -->
+<button id="my-button">Click Me</button>
+
+<script>
+  var myButton = document.querySelector('#my-button');
+  var nameInput = document.querySelector('#name-input');
+/*Button clicked triggers function */
+  myButton.addEventListener('click', function () {
+    /*Outprints prompt + value user types */
+    if (nameInput.value !== '') {
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>
